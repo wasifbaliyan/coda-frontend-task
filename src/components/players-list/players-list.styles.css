@@ -1,0 +1,30 @@
+.players-list {
+  flex-basis: 30%;
+  background-color: var(--bg-secondary);
+  padding: 3rem 1rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  width: 100px;
+}
+.players-list-heading {
+  color: #555;
+  font-weight: normal;
+}
+
+.start-button {
+  background: var(--main-color);
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.selected-players {
+  margin-bottom: 2rem;
+}

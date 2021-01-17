@@ -1,0 +1,25 @@
+.table-container {
+  flex-basis: 70%;
+  padding: 3rem 1rem;
+  background-color: var(--bg-primary);
+}
+
+.table-heading {
+  color: var(--main-color);
+  font-weight: 400;
+}
+
+.search-box input {
+  background-color: var(--bg-primary);
+  border: none;
+  border-bottom: 1px solid var(--main-color);
+  padding: 5px 0px;
+}
+
+th {
+  background-color: var(--bg-secondary);
+  margin: 0 1rem;
+  padding: 10px 5px;
+  font-weight: normal;
+  font-size: 0.9rem;
+}

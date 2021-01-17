@@ -1,0 +1,37 @@
+.start-container {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  background: var(--bg-primary);
+  min-height: 100vh;
+}
+
+.winning-bet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winning-bet-heading {
+  font-size: 3rem;
+  background: var(--bg-bet);
+  color: var(--color-text);
+  padding: 2rem 3rem;
+  border-radius: 50%;
+}
+
+.currently-playing {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-btn {
+  background: var(--bg-bet);
+  color: var(--color-text);
+  padding: 10px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+}
