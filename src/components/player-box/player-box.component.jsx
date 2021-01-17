@@ -20,9 +20,7 @@ export default function PlayerBox({ player, oppositeBet }) {
       <div className="other-details">
         <span className="start-bet">Bet: {player.Bet}</span>
         <br />
-        <span>
-          Price: {winner ? Number(player.Price) * 2 : Number(player.Price)}
-        </span>
+        <span>Price: {winner ? Number(player.Price) * 2 : 0}</span>
       </div>
       <div
         style={winner ? { background: "#275405" } : { background: " #ab2a19" }}
